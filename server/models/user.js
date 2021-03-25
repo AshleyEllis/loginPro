@@ -12,6 +12,7 @@ const userSchema = new Scema ({
         unique: true,
         require: true,
     },
+    
     Id: {
         type: Int16Array,
         trim: true,

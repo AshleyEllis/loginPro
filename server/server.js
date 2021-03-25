@@ -13,8 +13,7 @@ mongoose
 .then(()=> console.log('DB CONN'))
 .catch((err)=> console.log("DB Con error", err))
 app.get("/api/:message", (req, res)=> {//gets message- request and response
-    res.status(200).send("Hi Nabeeha and Sterling!");
-
+    res.status(200).send("Hi Nabeeha & Sterling!");
 });
 
 
